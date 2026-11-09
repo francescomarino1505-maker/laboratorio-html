@@ -4,13 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>La mia scheda personale</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <!-- Intestazione della pagina -->
 <header>
 <h1>Mi presento!</h1>
 <p>La mia prima pagina con HTML e CSS</p>
-
 </header>
 <!-- Contenuto principale -->
 <main>
@@ -33,7 +33,24 @@ Il mio obiettivo è
 <a class="pulsante" href="mailto:marco@example.com">
 Scrivimi
 </a>
-
+<table>
+    <caption>TABELLA DI PROVA</caption>
+    <tr>
+        <th>città</th>
+        <th>temperatura</th>
+        <th>umidità</th>
+    </tr>
+    <tr>
+        <td>Bolzano</td>
+        <td>-1 °C</td>
+        <td>35%</td>
+    </tr>
+    <tr>
+        <td>Palermo</td>
+        <td>22 °C</td>
+        <td>67%</td>
+    </tr>
+</table>
 </article>
 </main>
 <!-- Piè di pagina -->
@@ -42,124 +59,3 @@ Scrivimi
 </footer>
 </body>
 </html>
-<table>
-‹caption› TABELLA DI PROVA</caption>
-<tr>
-<th>città</th>
-<th>temperatura</th>
-<th>umidità</th>
-</tr
-<tr>
-<d>Bolzano</td>
-<td>-1 °C</td>
-<td>35%</td>
-</tr>
-<tr>
-1
-<ta›Palermo</td>
-<td>22 °C</td>
-<td>67%</td>
-</tr>
-</table›
-</article>
-</main›
-‹.-- Pie di pagina -->
-<footer>
-‹p›Esercitazione di laboratorio - HTML e CSS</p>
-</ footer>
-< body>
-/* Include padding e bordi nelle dimensioni degli elementi */
-* {
-    box-sizing: border-box;
-}
-
-/* Aspetto generale della pagina */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #243247;
-    background-color: #edf2f7;
-}
-
-/* Intestazione */
-header {
-    padding: 30px 20px;
-    text-align: center;
-    color: white;
-    background-color: #244a73;
-}
-
-header h1 {
-    margin: 0;
-}
-
-header p {
-    margin: 8px 0 0;
-}
-
-/* Spazio intorno al contenuto principale */
-main {
-    padding: 30px 20px;
-}
-
-/* Scheda personale */
-.scheda {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 25px;
-    background-color: white;
-    border: 2px solid #d3dfec;
-    border-radius: 12px;
-}
-
-/* Nome della persona */
-.scheda h2 {
-    margin-top: 0;
-    color: #244a73;
-}
-
-/* Paragrafo introduttivo */
-.descrizione {
-    color: #526174;
-}
-
-/* Elenco degli interessi */
-ul {
-    padding-left: 25px;
-}
-
-li {
-    margin-bottom: 6px;
-}
-
-/* Collegamento con aspetto di pulsante */
-.pulsante {
-    display: inline-block;
-    margin-top: 12px;
-    padding: 10px 20px;
-    color: white;
-    background-color: #244a73;
-    border-radius: 6px;
-    text-decoration: none;
-}
-
-/* Aspetto del collegamento al passaggio del mouse */
-.pulsante:hover {
-    background-color: #17334f;
-}
-
-/* Evidenza del collegamento quando selezionato con la tastiera */
-.pulsante:focus-visible {
-    outline: 3px solid #b54e00;
-    outline-offset: 4px;
-}
-
-/* Piè di pagina */
-footer {
-    padding: 15px;
-    text-align: center;
-    font-size: 14px;
-    color: #526174;
-}
